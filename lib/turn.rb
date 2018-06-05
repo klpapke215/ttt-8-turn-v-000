@@ -37,8 +37,6 @@ def turn(board)
   if(valid_move?(board, index))
     move(board, index, character = "X")
   else
-    loop do
       turn(board)
-    end
   end
 end
