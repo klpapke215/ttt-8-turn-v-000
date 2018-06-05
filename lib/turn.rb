@@ -38,7 +38,7 @@ def turn(board)
     move(board, input, character = "X")
   else
     loop do
-    turn(board)
+      turn(board)
     end
   end
 end
