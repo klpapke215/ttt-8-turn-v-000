@@ -31,7 +31,5 @@ def move(board, input, character = "X")
 end
 
 def turn(board)
-  loop do
-    puts "Please enter 1-9"
-  end
+  puts "Please enter 1-9"
 end
